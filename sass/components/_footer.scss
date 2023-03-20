@@ -1,0 +1,112 @@
+.footer {
+  background-color: $LightBlack;
+  padding: 60px 0px 60px;
+
+  &__container {
+    display: flex;
+  }
+}
+
+.email-wrapper {
+  margin-bottom: 9px;
+}
+
+.footer__icons {
+  display: flex;
+  margin-left: 70px;
+  gap: 10px;
+
+  &--text {
+    font-family: Roboto;
+    font-size: FontsSize("xs");
+    font-weight: FontsWeight("medium");
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $StandardWhite;
+    text-transform: uppercase;
+    margin-left: 70px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  &--item {
+    height: 44px;
+    width: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    fill: $StandardWhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: $StandardBlue;
+    }
+  }
+}
+
+fieldset {
+  border: none;
+  display: flex;
+}
+
+.newsletter {
+  margin-left: 78px;
+
+  &__header {
+    font-family: Roboto;
+    font-size: FontsSize("xs");
+    font-weight: FontsWeight("medium");
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $StandardWhite;
+    text-transform: uppercase;
+    margin-left: 78px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    background: $StandardBlue;
+    border: none;
+    cursor: pointer;
+    padding: 13px 26px 13px 42px;
+    border-radius: 4px;
+
+    &--text {
+      color: $StandardWhite;
+      font-weight: FontsWeight("medium");
+      letter-spacing: 0.06em;
+    }
+
+    &--format {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+
+  input {
+    width: 384px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+    margin-right: 12px;
+
+    &::placeholder {
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}

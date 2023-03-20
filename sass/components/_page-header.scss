@@ -1,5 +1,3 @@
-@import "../utils/vars-fonts";
-
 .main-header-wrapper {
   display: flex;
   flex-direction: row;
@@ -31,7 +29,7 @@
       display: block;
       content: "";
       width: 55px;
-      height: 4px;
+      height: 5px;
       background: $StandardBlue;
       border-radius: 2px;
       position: absolute;
@@ -44,27 +42,12 @@
     }
 
     &--portfolio-active::after {
-      @extend .nav__format--agency-active::after;
+      @extend .nav__format--agency-active, ::after;
     }
-  }
-}
 
-.adress {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 24px 0 25px;
-  margin-top: 50px;
-
-  &__format {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: $LightGrey;
-    display: flex;
-    transition-property: color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: $StandardBlue;
+    }
   }
 }

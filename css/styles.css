@@ -131,7 +131,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.nav__format:hover,
+/* .nav__format:hover,
 .nav__format:focus,
 .adress__format-footer:hover,
 .adress__format-footer:focus {
@@ -143,15 +143,15 @@ body {
   fill: var(--standard-blue);
   cursor: pointer;
   color: var(--standard-blue);
-}
+} */
 
-.main-header-wrapper {
+/* .main-header-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.site-nav {
+/* .site-nav {
   margin-bottom: 94px;
 }
 
@@ -159,9 +159,9 @@ body {
   border-bottom: 1px solid #ececec;
   content: "";
   display: block;
-}
+} */
 
-.icon-smartphone {
+/* .icon-smartphone {
   fill: currentColor;
   margin-right: 10px;
   margin-left: 20px;
@@ -170,13 +170,13 @@ body {
 .icon-envelope {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* NAV END */
 
 /* MAIN HEADER START*/
 
-.main-header {
+/* .main-header {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -226,13 +226,13 @@ body {
 
 .main-container {
   padding-bottom: 94px;
-}
+} */
 
 /* MAIN HEADER END*/
 
 /* LOREM IPSUM START*/
 
-.lorem-ipsum {
+/* .lorem-ipsum {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -261,13 +261,13 @@ body {
   border-radius: 4px;
   padding: 25px 102.34px;
   margin-bottom: 30px;
-}
+} */
 
 /* LOREM IPSUM END*/
 
 /* MAIN BUSINESS START*/
 
-.main-business {
+/* .main-business {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -303,12 +303,12 @@ body {
   position: absolute;
   z-index: 2;
   top: 224px;
-}
+} */
 
 /* MAIN BUSINESS END*/
 
 /* OUR TEAM START*/
-
+/* 
 .our-team {
   font-size: 36px;
   font-weight: 700;
@@ -380,13 +380,13 @@ body {
 .ourteam-icons-item:focus {
   background-color: var(--standard-blue);
   fill: var(--standard-white);
-}
+} */
 
 /* OUR TEAM END */
 
 /* OUR CLIENTS START */
 
-.our-clients {
+/* .our-clients {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -424,12 +424,12 @@ body {
   cursor: pointer;
   fill: var(--standard-blue);
   border-color: var(--standard-blue);
-}
+} */
 
 /* OUR CLIENTS END */
 
 /* FOOTER START */
-
+/* 
 .footer_wrapper {
   background-color: var(--background-black-color);
   padding: 60px 0px 60px;
@@ -555,7 +555,7 @@ fieldset {
   display: flex;
   align-items: center;
   gap: 24px;
-}
+} */
 
 /* FOOTER END */
 
@@ -639,7 +639,7 @@ fieldset {
 /* PORTFOLIO END */
 
 /* BUTTON PORTFOLIO START */
-
+/* 
 .button-list {
   display: flex;
   justify-content: center;
@@ -677,7 +677,7 @@ fieldset {
 .button-portfolio__text:focus {
   color: var(--standard-white);
   background-color: var(--standard-blue);
-}
+} */
 
 /* BUTTON PORTFOLIO END */
 

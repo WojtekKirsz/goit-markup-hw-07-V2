@@ -1,23 +1,14 @@
-@import "./components/nagivation";
 @import "./utils/vars";
-// @import "./utils/vars-fonts";
+@import "./utils/vars-fonts";
+@import "./components/nagivation";
 @import "./components/page-header";
 @import "./components/logo";
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-* {
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--standard-black);
-  text-decoration: none;
-}
+@import "./components/base";
+@import "./components/order-service";
+@import "./components/lorem-ipsum";
+@import "./components/main-business";
+@import "./components/our-team";
+@import "./components/our-clients";
+@import "./components/footer";
+@import "./components/adress";
+@import "./components/portfolio";
