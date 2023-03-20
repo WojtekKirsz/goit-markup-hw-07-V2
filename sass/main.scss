@@ -1,4 +1,23 @@
 @import "./components/nagivation";
 @import "./utils/vars";
-@import "./utils/vars-fonts";
+// @import "./utils/vars-fonts";
 @import "./components/page-header";
+@import "./components/logo";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--standard-black);
+  text-decoration: none;
+}

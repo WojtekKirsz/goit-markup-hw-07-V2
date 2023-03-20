@@ -1,0 +1,51 @@
+@import "../utils/vars-fonts";
+
+.logo-nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 0 25px;
+  gap: 93px;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: FontsSize("xl");
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: FontsWeight("medium");
+
+  &__text {
+    color: $StandardBlack;
+
+    &--blue {
+      color: $StandardBlue;
+    }
+
+    &--black {
+      color: $StandardBlack;
+    }
+
+    &--white {
+      color: $StandardWhite;
+    }
+  }
+}
+
+// .logo__text--blue {
+//   color: $StandardBlue;
+// }
+
+// .logo__text {
+//   color: $StandardBlack;
+// }
+
+// .logo__text--white {
+//   color: $StandardWhite;
+// }
+
+// .logo__wrapper {
+//   padding: 24px 0 25px;
+//   margin-right: 93px;
+// }

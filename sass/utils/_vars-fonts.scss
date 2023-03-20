@@ -14,10 +14,10 @@ $fonts-weight: (
   "large": 900,
 );
 
-@function getSpace($key) {
+@function FontsSize($key) {
   @return map-get($fonts-size, $key);
 }
 
-@function getSpace($key) {
+@function FontsWeight($key) {
   @return map-get($fonts-weight, $key);
 }
