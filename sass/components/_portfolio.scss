@@ -1,13 +1,3 @@
-.site-nav {
-  margin-bottom: 94px;
-
-  &::after {
-    border-bottom: 1px solid #ececec;
-    content: "";
-    display: block;
-  }
-}
-
 .portfolio {
   display: flex;
   justify-content: space-between;
@@ -38,6 +28,11 @@
   &__image {
     position: relative;
     overflow: hidden;
+
+    &:hover .portfolio__overlay {
+      transform: translateY(0);
+      cursor: pointer;
+    }
   }
 
   &__overlay {
@@ -109,9 +104,4 @@
       }
     }
   }
-}
-
-.portfolio__image:hover .portfolio__overlay {
-  transform: translateY(0);
-  cursor: pointer;
 }

@@ -4,6 +4,31 @@
   gap: 30px;
   padding: 24px 0 25px;
 
+  &__footer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    &--text {
+      font-size: FontsSize("xs");
+      font-weight: FontsWeight("medium");
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: $StandardWhite;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      transition-property: color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: $StandardBlue;
+      }
+    }
+  }
+
   &__format {
     font-size: FontsSize("xs");
     font-weight: FontsWeight("medium");
@@ -20,26 +45,6 @@
       fill: $StandardBlue;
       cursor: pointer;
       color: $StandardBlue;
-    }
-
-    &--footer {
-      font-size: FontsSize("xs");
-      font-weight: FontsWeight("medium");
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-      color: $StandardWhite;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
-      margin-bottom: 9px;
-      transition-property: color;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-      &:hover,
-      &:focus {
-        cursor: pointer;
-        color: $StandardBlue;
-      }
     }
   }
 

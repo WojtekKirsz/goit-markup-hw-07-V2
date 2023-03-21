@@ -18,9 +18,9 @@
     />
   </head>
   <body>
-    <header class="container site-nav">
-      <div class="main-header-wrapper">
-        <div class="logo-nav-wrapper">
+    <header class="container container__underline">
+      <div class="container__header">
+        <div class="logo__nav-wrapper">
           <div class="logo">
             <a href="" target="_blank"
               ><span class="logo__text logo__text--blue">Web</span
@@ -338,18 +338,18 @@
               ><span class="logo__text--white">Studio</span></a
             >
           </div>
-          <adress>
-            <div class="adress__format--footer">
+          <adress class="adress__footer">
+            <div class="adress__footer--text">
               <p>m. Warszawa, Aleje Jerozolimskie 21</p>
             </div>
 
-            <div class="email-wrapper">
-              <a class="adress__format--footer" href="mailto:info@devstudio.com"
+            <div>
+              <a class="adress__footer--text" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </div>
             <div>
-              <a class="adress__format--footer" href="tel:+48111111111"
+              <a class="adress__footer--text" href="tel:+48111111111"
                 >+48 111 111 111</a
               >
             </div>
@@ -384,13 +384,14 @@
           <p class="newsletter__header">zapisz się do newslettera</p>
           <div class="newsletter">
             <form name="signup_form" autocomplete="on">
-              <fieldset>
+              <fieldset class="newsletter__box">
                 <label>
                   <input
                     type="email"
                     name="email"
                     placeholder="E-mail"
                     required
+                    class="newsletter__input"
                   />
                 </label>
                 <div>
